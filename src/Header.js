@@ -30,7 +30,7 @@ export default function Header() {
                     <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
                 <div className='logo-nav'>
-                    <a href='google.com'><i class="fa fa-cart-shopping"></i></a>
+                    <Link to ="/cart" href='google.com'><i class="fa fa-cart-shopping"></i></Link>
                     <a href='google.com'><i class="fa fa-magnifying-glass"></i></a>
                 </div>
             </div>
